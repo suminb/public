@@ -21,7 +21,7 @@ from datetime import datetime
 
 project = 'SB Public Wiki'
 year = datetime.now().year
-copyright = '{year}, Sumin Byeon'
+copyright = f'{year}, Sumin Byeon'
 author = 'Sumin Byeon'
 
 
