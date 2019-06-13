@@ -26,7 +26,7 @@ github-pages:
 publish: html github-pages
 	cd "$(BUILDDIR)/html" && \
 		git init && \
-		git remote add origin git@github.com:suminb/wiki-pub.git && \
+		git remote add origin git@github.com:suminb/wiki-pub.git || echo "Skipping..."  && \
 		git remote -v && \
 		git add . && \
 		git commit -a -m "Published via Makefile" && \
