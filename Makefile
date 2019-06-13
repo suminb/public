@@ -28,6 +28,6 @@ publish: html github-pages
 		git init && \
 		git remote add origin git@github.com:suminb/wiki-pub.git && \
 		git remote -v && \
-		git add * && \
+		git add . && \
 		git commit -a -m "Published via Makefile" && \
 		git push -f origin master
