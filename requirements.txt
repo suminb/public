@@ -1,1 +1,2 @@
 edx-sphinx-theme==1.4.0
+sphinx-rtd-theme==0.4.3
